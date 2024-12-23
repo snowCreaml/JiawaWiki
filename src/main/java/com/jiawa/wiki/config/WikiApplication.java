@@ -1,4 +1,4 @@
-package com.jiawa.wiki;
+package com.jiawa.wiki.config;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
@@ -13,9 +13,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 // @ComponentScan({"com.jiawa", "com.test"})
 @ComponentScan("com.jiawa")
 @SpringBootApplication
-@MapperScan("com.jiawa.wiki.mapper")
-@EnableScheduling
-@EnableAsync
+// @MapperScan("com.jiawa.wiki.mapper")
+// @EnableScheduling
+// @EnableAsync
 public class WikiApplication {
 
     private static final Logger LOG = LoggerFactory.getLogger(WikiApplication.class);
