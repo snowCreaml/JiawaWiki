@@ -11,9 +11,11 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 // @ComponentScan({"com.jiawa", "com.test"})
+// 启动器只会扫描当前所在包
 @ComponentScan("com.jiawa")
 @SpringBootApplication
-// @MapperScan("com.jiawa.wiki.mapper")
+// 标明持久层
+@MapperScan("com.jiawa.wiki.mapper")
 // @EnableScheduling
 // @EnableAsync
 public class WikiApplication {
