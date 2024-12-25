@@ -1,6 +1,6 @@
 package com.jiawa.wiki.domain;
 
-public class EBook {
+public class Ebook {
     private Long id;
 
     private String name;

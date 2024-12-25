@@ -40,6 +40,7 @@
                              targetPackage="com.jiawa.wiki.mapper"
                              type="XMLMAPPER"/>
 
+        <!--domainObjectname字段可以加也可以不加，不加默认为tableName大写开头-->
         <!--<table tableName="demo" domainObjectName="Demo"/>-->
         <table tableName="ebook" domainObjectName="EBook"/>
         <!--<table tableName="category"/>-->
